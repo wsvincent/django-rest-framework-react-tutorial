@@ -1,3 +1,5 @@
+This is the complete source code from the [Django Rest Framework & React Tutorial](https://wsvincent.com/django-rest-framework-react-tutorial/).
+
 # Local Setup
 
 Python 3 and [Pipenv](https://docs.pipenv.org/) need to already be installed. If you need more complete local dev instructions, [see here](https://djangoforbeginners.com/initial-setup/).
@@ -12,16 +14,16 @@ $ cd django-rest-framework-react-tutorial
 
 ## Backend
 
-Change into the `backend` directory, install the `Pipenv` packages, start a new shell, and run the local server.
+Install the `Pipenv` packages and start a new shell. Then `cd` into the `backend` directory and run the local server.
 
 ```
-$ cd backend
 $ pipenv install
 $ pipenv shell
+$ cd backend
 $ ./manage.py runserver
 ```
 
-You can see the API now at [http://127.0.0.1:8000/api](http://127.0.0.1:8000/api)
+You can see the API now at [http://127.0.0.1:8000/api](http://127.0.0.1:8000/api).
 
 ## Frontend
 
@@ -35,9 +37,10 @@ $ cd frontend
 
 Make sure React is already installed globally. If not `$ npm install -g create-react-app`.
 
-Then start the React server:
+Then install necessary packages and start the React server:
 
 ```
+$ npm install
 $ npm start
 ```
 
