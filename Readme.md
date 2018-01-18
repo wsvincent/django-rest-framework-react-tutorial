@@ -17,10 +17,10 @@ $ cd django-rest-framework-react-tutorial
 Install the `Pipenv` packages and start a new shell. Then `cd` into the `backend` directory and run the local server.
 
 ```
+$ cd backend
 $ pipenv install
 $ pipenv shell
-$ cd backend
-$ ./manage.py runserver
+(backend) $ ./manage.py runserver
 ```
 
 You can see the API now at [http://127.0.0.1:8000/api](http://127.0.0.1:8000/api).
